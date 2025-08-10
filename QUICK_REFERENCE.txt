@@ -1,0 +1,56 @@
+===============================================
+AI PAPER KEYWORD EXTRACTOR - QUICK REFERENCE
+===============================================
+
+SETUP:
+------
+1. Activate environment: source keyword_extractor/bin/activate
+2. Basic usage: python main.py your_paper.pdf
+
+COMMON COMMANDS:
+---------------
+Basic Extraction:
+  python main.py paper.pdf                              # 25 keywords (default)
+  python main.py paper.pdf -k 50                        # 50 keywords
+  python main.py paper.pdf --keywords 30                # 30 keywords
+
+Save Results:
+  python main.py paper.pdf --save                       # Save as text
+  python main.py paper.pdf -s -f json                   # Save as JSON
+  python main.py paper.pdf -k 40 -s -f csv             # 40 keywords, save as CSV
+
+Batch Processing:
+  python main.py -d ./papers                            # Process directory
+  python main.py -d ./papers -k 30 -s                  # Directory + save
+  python main.py --directory ./papers --keywords 25    # Full syntax
+
+QUICK EXAMPLES:
+--------------
+Your PDF: python main.py One_token_to_fool_LLM.pdf -k 30 -s -f json
+Help:     python main.py --help
+Version:  python main.py --version
+
+FLAGS REFERENCE:
+---------------
+-k, --keywords N     Number of keywords to extract
+-s, --save          Save results to file  
+-f, --format        Output format: text, json, csv
+-d, --directory     Process all PDFs in directory
+-h, --help          Show help
+--version           Show version
+
+OUTPUT SECTIONS:
+---------------
+🔑 RECOMMENDED KEYWORDS  (customizable count)
+📊 TF-IDF KEYWORDS      (shows 20)
+🔍 RAKE KEYWORDS        (shows 20) 
+📝 KEY PHRASES          (shows 10)
+
+TYPICAL WORKFLOWS:
+-----------------
+Quick Check:    python main.py paper.pdf -k 15
+Normal Use:     python main.py paper.pdf -k 30 -s
+Deep Analysis:  python main.py paper.pdf -k 75 -s -f json
+Batch Work:     python main.py -d ./papers -k 25 -s
+
+===============================================
