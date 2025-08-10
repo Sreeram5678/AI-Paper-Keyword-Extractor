@@ -2,6 +2,9 @@
 """
 AI Paper Keyword Extractor
 Main application for extracting keywords from research papers in PDF format
+
+Copyright (c) 2024 Sreeram Lagisetty. All rights reserved.
+This project is proprietary software. Unauthorized copying, distribution, or use is strictly prohibited.
 """
 
 import argparse

@@ -265,7 +265,9 @@ This will test the keyword extraction functionality with sample academic text an
 
 ## License
 
-This project is open source. Feel free to use, modify, and distribute according to your needs.
+Copyright (c) 2024 Sreeram Lagisetty. All rights reserved.
+
+This project is proprietary software. Unauthorized copying, distribution, or use of this software is strictly prohibited.
 
 ## Contributing
 

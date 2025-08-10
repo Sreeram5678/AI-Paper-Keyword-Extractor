@@ -1,6 +1,9 @@
 """
 Keyword Extractor Module for AI Paper Keyword Extractor
 Implements TF-IDF and RAKE algorithms for keyword extraction
+
+Copyright (c) 2024 Sreeram Lagisetty. All rights reserved.
+This project is proprietary software. Unauthorized copying, distribution, or use is strictly prohibited.
 """
 
 import numpy as np

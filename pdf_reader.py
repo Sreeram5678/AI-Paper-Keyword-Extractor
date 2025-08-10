@@ -1,6 +1,9 @@
 """
 PDF Reader Module for AI Paper Keyword Extractor
 Extracts text content from PDF files using PyPDF2
+
+Copyright (c) 2024 Sreeram Lagisetty. All rights reserved.
+This project is proprietary software. Unauthorized copying, distribution, or use is strictly prohibited.
 """
 
 import PyPDF2
